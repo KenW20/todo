@@ -20,7 +20,7 @@ header, form{
     display:flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 form input, form button{
     padding: 0.5rem;
@@ -45,7 +45,7 @@ form button:hover{
   justify-content:center;
   align-items:center;
 }
-.today-list{
+.todo-list{
   min-width:30%;
   list-style:none; 
 }
@@ -63,9 +63,8 @@ form button:hover{
 .todo li{
 	flex:1;
 }
-	.trash-btn,
- 	.complete-btn{
-	
+	.trash-btn, 
+	.complete-btn{	
 	background:#ff6f47;
 	color: white;
 	border: none;
@@ -107,8 +106,7 @@ form button:hover{
 		color: #ff6f47;
 		width: 10rem;
 		cursor: pointer;
-		padding: 1rem;
-		
+		padding: 1rem;		
 	}
 	.select::after{
 		content: "\25BC";
@@ -122,9 +120,7 @@ form button:hover{
 	}
 	.select:hover::after{
 		background: white;
-		color: #ff6f47;
-		
-		
+		color: #ff6f47;		
 	}
 	
 	
